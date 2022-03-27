@@ -1,5 +1,4 @@
 import {Pokemon} from './pokemon';
-import {TypeChecker} from './typeChecker';
 import {Pokedex} from './pokedex';
 import {Fighter} from './fighter';
 import {UniverseChecker} from './universeChecker';

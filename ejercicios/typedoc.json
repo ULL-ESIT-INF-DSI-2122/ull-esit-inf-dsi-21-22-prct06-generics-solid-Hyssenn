@@ -2,8 +2,13 @@
 	"entryPoints":  [
 		"./src/ejercicio-1/combat.ts",
 		"./src/ejercicio-1/pokemon.ts",
-		"./src/ejercicio-1/type.ts",
-		"./src/ejercicio-1/pokedex.ts"
+		"./src/ejercicio-1/universeChecker.ts",
+		"./src/ejercicio-1/dragonball.ts",
+		"./src/ejercicio-1/fighter.ts",
+		"./src/ejercicio-1/starWars.ts",
+		"./src/ejercicio-1/legendsOfHeroes.ts"
+		
+		
 	],
 	"out": "./docs"
 	}
