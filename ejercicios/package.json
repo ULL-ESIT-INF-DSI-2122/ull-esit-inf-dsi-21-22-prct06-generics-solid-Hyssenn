@@ -11,7 +11,7 @@
     "scripts": {
   
       
-    "start": "tsc-watch --onSuccess \"node dist/ejercicio-3/cifrado.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/modif/adapter.js\"",
   
       
     "doc": "typedoc",

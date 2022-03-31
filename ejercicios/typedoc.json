@@ -6,8 +6,10 @@
 		"./src/ejercicio-1/dragonball.ts",
 		"./src/ejercicio-1/fighter.ts",
 		"./src/ejercicio-1/starWars.ts",
-		"./src/ejercicio-1/legendsOfHeroes.ts"
-		
+		"./src/ejercicio-1/legendsOfHeroes.ts",
+		"./src/modif/adapter.ts",
+		"./src/modif/imperialLength.ts",
+		"./src/modif/metricLength.ts"	
 		
 	],
 	"out": "./docs"
