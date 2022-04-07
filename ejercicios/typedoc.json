@@ -7,10 +7,13 @@
 		"./src/ejercicio-1/fighter.ts",
 		"./src/ejercicio-1/starWars.ts",
 		"./src/ejercicio-1/legendsOfHeroes.ts",
-		"./src/modif/adapter.ts",
-		"./src/modif/imperialLength.ts",
-		"./src/modif/metricLength.ts"	
-		
+		"./src/modif-P7/adapter.ts",
+		"./src/modif-P7/imperialLength.ts",
+		"./src/modif-P7/metricLength.ts",
+		"./src/modif-P8/client.ts",	
+		"./src/modif-P8/pokemon.ts",
+		"./src/modif-P8/pokemonCreator.ts",
+		"./src/modif-P8/pokeStatsCreator.ts"
 	],
 	"out": "./docs"
 	}

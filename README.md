@@ -169,14 +169,14 @@ La función recibe 2 luchadores y cambia la vida del luchador 2 que es el que se
 Nos piden realizar un cifrado en el que usando una palabra, una clave y un alfabeto, encriptemos la palabra usando la clave de tal manera que cada posicion de las letras de la palabra a encriptar se mueven en n posiciones segun la posicion de la letras de la clave. En otras palabras nos piden implementar el cifrado conocido como cifrado Viginere.
 
 Ahora bien la idea para completar este ejercicio esta en la utilización de una sola clase pues en esté se va meter toda la encriptación tanto como para cifrar o para descifrar pues ambas operaciones son realizadas iguales solo que sus operaciones son inversas, siguiendo el principio SOLID de las clases que tengan una única responsabilidad, la cuál esta va a ser la de realizar el proceso de encriptación del cifrado.
-###### Constructor
+##### Constructor
 ```
 constructor(private alfabeto :string) {
     this.alfabeto = alfabeto;
   }
   ```
 La idea es en la clase solo guardar el alfabeto pues será lo único inmutable durante el proceso de cifrado y descifrado, las palabras y las claves pueden cambiar pero todas estas tienen que ser sobre un mismo alfabeto, si se quiere otro alfabeto se deberá crear otro objeto de tipo cifrado.
-###### Busqueda
+##### Busqueda
 
 ```
 indexBusqueda(letraPalabra :string, letraClave :string, mode :string ='cifrar' || 'descifrar') :number {
@@ -199,7 +199,7 @@ indexBusqueda(letraPalabra :string, letraClave :string, mode :string ='cifrar' |
 
   Tanto como para descifrar o para cifrar se va a hacer uso de la función de búsqueda esta lo que va a realizar es que pasándole una letra de la palabra y una letra de la clave va a iterar siguiendo el alfabeto hasta que coincidan con la posición de esta, y se van a guardar las posiciones y dependiendo de si estamos cifrando o descifrando se va a sumar o restar respectivamente las posiciones y se devuelve la posición resultado.
 
-  ###### Cifrar y Descifrar
+  ##### Cifrar y Descifrar
   ```
   cifrar(palabra :string, clave :string) :string {
     let result :string[] = [];
